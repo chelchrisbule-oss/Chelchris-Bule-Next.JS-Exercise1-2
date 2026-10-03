@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | SprintWave</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">SprintWave</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Contact</a></li>
+
+            <li>🛒 Cart: <span id="cart-count">0</span></li>
+
+            <li>
+                <button onclick="buyNow()" class="buy-btn">
+                    Buy Now
+                </button>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section class="products">
+
+    <h2>All Sneakers</h2>
+
+    <div class="product-container">
+
+        <div class="card">
+            <img src="air max2.jpg" alt="">
+            <h3>Nike Air Max</h3>
+            <p>$120</p>
+            <button onclick="addToCart('Nike Air Max',120)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="JORDAN 1.jpg" alt="">
+            <h3>Nike Air Jordan 1</h3>
+            <p>$150</p>
+            <button onclick="addToCart('Nike Air Jordan 1',150)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="ultra boost.avif" alt="">
+            <h3>Adidas Ultraboost</h3>
+            <p>$140</p>
+            <button onclick="addToCart('Adidas Ultraboost',140)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="superstar.webp" alt="">
+            <h3>Adidas Superstar</h3>
+            <p>$110</p>
+            <button onclick="addToCart('Adidas Superstar',110)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="old skool.webp" alt="">
+            <h3>Vans Old Skool</h3>
+            <p>$85</p>
+            <button onclick="addToCart('Vans Old Skool',85)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="Vans SK8-Hi.jpg" alt="">
+            <h3>Vans SK8-Hi</h3>
+            <p>$90</p>
+            <button onclick="addToCart('Vans SK8-Hi',90)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="Vans Authentic.webp" alt="">
+            <h3>Vans Authentic</h3>
+            <p>$80</p>
+            <button onclick="addToCart('Vans Authentic',80)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="hovr.jpg" alt="">
+            <h3>Under Armour HOVR</h3>
+            <p>$110</p>
+            <button onclick="addToCart('Under Armour HOVR',110)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="Under Armour Charged.jpg" alt="">
+            <h3>Under Armour Charged</h3>
+            <p>$100</p>
+            <button onclick="addToCart('Under Armour Charged',100)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="Under Armour Curry 10.jpg" alt="">
+            <h3>Under Armour Curry 10</h3>
+            <p>$160</p>
+            <button onclick="addToCart('Under Armour Curry 10',160)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="Nike Dunk Low 2.jpg" alt="">
+            <h3>Nike Dunk Low</h3>
+            <p>$130</p>
+            <button onclick="addToCart('Nike Dunk Low',130)">
+                Add to Cart
+            </button>
+        </div>
+
+        <div class="card">
+            <img src="Adidas NMD R1.webp" alt="">
+            <h3>Adidas NMD R1</h3>
+            <p>$145</p>
+            <button onclick="addToCart('Adidas NMD R1',145)">
+                Add to Cart
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 SprintWave</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
